@@ -34,7 +34,7 @@ public class Main {
         int sum;
         int indexLeft=q, indexRight=q+1;
         sum=0;
-        for(int i=q;i>=0;i--){
+        for(int i=q;i>=p;i--){
             sum+=arr[i];
             if(sum>leftSum){
                 leftSum=sum;
